@@ -40,7 +40,7 @@ The hybrid model showed significant performance improvements by incorporating bo
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/ghazalehmirzaee/neural_decoding.git
+git clone https://github.com/LatifiLab/neural_decoding.git
 cd neural_decoding
 
 # Create and activate a new virtual environment
