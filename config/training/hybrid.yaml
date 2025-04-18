@@ -8,7 +8,7 @@ gradient_clip_val: 1.0
 early_stopping_patience: 7
 
 # Sequence parameters
-sequence_length: 16  # As in paper
+sequence_length: 32  # As in paper
 overlap: 8
 
 # Regularization
