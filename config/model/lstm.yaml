@@ -2,11 +2,11 @@
 type: lstm
 
 # Model parameters as specified in Table 1
-input_size: 431  # Number of neurons
+input_size: 581  # Number of neurons
 hidden_size: 64
 num_layers: 2
 num_classes: 3
-dropout: 0.3
+dropout: 0.5
 
 # Sequence length is 10 for LSTM as mentioned in the paper
 sequence_length: 16
@@ -14,5 +14,5 @@ sequence_length: 16
 # Task weights
 task_weights:
   multiclass: 1.0
-  contralateral: 1.0
-  ipsilateral: 1.0
+  contralateral: 0.5
+  ipsilateral: 0.5
